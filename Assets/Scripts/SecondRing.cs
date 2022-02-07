@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ring : MonoBehaviour
+public class SecondRing : MonoBehaviour
 {
 
     public float rotationSpeed;
@@ -13,17 +13,17 @@ public class Ring : MonoBehaviour
     void Start()
     {
         counter = 0;
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             counter++;
-            if(counter == 1)
+            if (counter == 2)
             {
                 button = true;
             }
