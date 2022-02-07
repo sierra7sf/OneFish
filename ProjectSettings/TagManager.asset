@@ -3,13 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags:
   - Ring
-  - Fish
-=======
-  tags: []
->>>>>>> main
   layers:
   - Default
   - TransparentFX
@@ -47,9 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< HEAD
-=======
   - name: Background
     uniqueID: 390075911
     locked: 0
->>>>>>> main
