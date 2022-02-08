@@ -79,7 +79,7 @@ public class Fish : MonoBehaviour
             // myAudioClip.Play();
             if (SceneManager.GetActiveScene().name == "LevelOne")
             {
-                Debug.Log("LevelOne");
+                
                 if(counter == 1)
                 {
                     swim = true;
@@ -116,10 +116,9 @@ public class Fish : MonoBehaviour
 
         if (swim)
         {
-            /*int min = 0;
-            int max = 2;
-            int number = Random.Range(min, max);
-            mySpriteRenderer.sprite = frames[number];*/
+            
+            int number = Random.Range(0, 2);
+            mySpriteRenderer.sprite = frames[number];
 
             int number2 = Random.Range(0, 5);
             AudioClip clip = audioArray[number2];
