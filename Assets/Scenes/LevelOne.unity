@@ -398,6 +398,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 476764498944937099, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 641985746851677744, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -462,6 +466,14 @@ PrefabInstance:
     - target: {fileID: 1947460483660597000, guid: 2217cf52d12944da1913050087f75d68, type: 3}
       propertyPath: m_Name
       value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095166117535207520, guid: 2217cf52d12944da1913050087f75d68, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095166117535207520, guid: 2217cf52d12944da1913050087f75d68, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 390075911
       objectReference: {fileID: 0}
     - target: {fileID: 4095166118707897454, guid: 2217cf52d12944da1913050087f75d68, type: 3}
       propertyPath: m_SortingLayer

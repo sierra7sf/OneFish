@@ -345,6 +345,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background
       objectReference: {fileID: 0}
+    - target: {fileID: 4095166117535207520, guid: 2217cf52d12944da1913050087f75d68, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095166117535207520, guid: 2217cf52d12944da1913050087f75d68, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 390075911
+      objectReference: {fileID: 0}
     - target: {fileID: 4095166118707897454, guid: 2217cf52d12944da1913050087f75d68, type: 3}
       propertyPath: m_SortingLayer
       value: 1
