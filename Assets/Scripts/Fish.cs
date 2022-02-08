@@ -11,6 +11,9 @@ public class Fish : MonoBehaviour
     public SpriteRenderer mySpriteRenderer;
     private float counter;
 
+    
+    public Sprite[] frames;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,7 @@ public class Fish : MonoBehaviour
         myAudioClip = GetComponent<AudioClip>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         counter = 0;
+        
 
     }
 
@@ -31,13 +35,21 @@ public class Fish : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+   
+        int min = 0;
+        int max = 9;
+        int number = Random.Range(min, max);
+        mySpriteRenderer.sprite = frames[number];
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             counter++;
-           // myAudioClip.Play();
-           if(counter == 2)
+            // myAudioClip.Play();
+            if (counter == 2)
             {
+   
                 rb.gravityScale = -1;
+            
             }
             
         }
