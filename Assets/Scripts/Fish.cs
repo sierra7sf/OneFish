@@ -12,6 +12,7 @@ public class Fish : MonoBehaviour
     private float counter;
     private AudioSource myAudioSource;
     public AudioClip[] audioArray = new AudioClip[5];
+    private bool swim;
 
 
     public Sprite[] frames;
@@ -23,11 +24,8 @@ public class Fish : MonoBehaviour
         myAudioSource = GetComponent<AudioSource>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         counter = 0;
-
-
-        int number2 = Random.Range(0, 5);
-        AudioClip clip = audioArray[number2];
-        myAudioSource.PlayOneShot(clip);
+        swim = false;
+        
 
     }
 
@@ -35,17 +33,38 @@ public class Fish : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ring"))
         {
+            //Add "lost level" music
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("NextLevel"))
+        {
+            if (SceneManager.GetActiveScene().name == "LevelOne")
+            {
+                SceneManager.LoadScene("LevelTwo");
+            }
+            if (SceneManager.GetActiveScene().name == "LevelTwo")
+            {
+                SceneManager.LoadScene("LevelThree");
+            }
+            if (SceneManager.GetActiveScene().name == "LevelThree")
+            {
+                SceneManager.LoadScene("LevelFour");
+            }
+            if (SceneManager.GetActiveScene().name == "LevelFour")
+            {
+                SceneManager.LoadScene("Sierra");
+            }
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
-   
-        int min = 0;
-        int max = 9;
-        int number = Random.Range(min, max);
-        mySpriteRenderer.sprite = frames[number];
 
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -58,13 +77,57 @@ public class Fish : MonoBehaviour
   
 
             // myAudioClip.Play();
-            if (counter == 2)
+            if (SceneManager.GetActiveScene().name == "LevelOne")
             {
-   
-                rb.gravityScale = -1;
+                Debug.Log("LevelOne");
+                if(counter == 1)
+                {
+                    swim = true;
+                }
             
             }
-            
+            if (SceneManager.GetActiveScene().name == "LevelTwo")
+            {
+                if (counter == 2)
+                {
+                    swim = true;
+                }
+
+            }
+            if (SceneManager.GetActiveScene().name == "LevelThree")
+            {
+                if (counter == 3)
+                {
+                    swim = true;
+                }
+
+            }
+
+            if (SceneManager.GetActiveScene().name == "LevelFour")
+            {
+                if (counter == 4)
+                {
+                    swim = true;
+                }
+
+            }
+
+        }
+
+        if (swim)
+        {
+            /*int min = 0;
+            int max = 2;
+            int number = Random.Range(min, max);
+            mySpriteRenderer.sprite = frames[number];*/
+
+            int number2 = Random.Range(0, 5);
+            AudioClip clip = audioArray[number2];
+            myAudioSource.PlayOneShot(clip);
+
+            rb.gravityScale = -1;
+
+            swim = false;
         }
     }
 }
