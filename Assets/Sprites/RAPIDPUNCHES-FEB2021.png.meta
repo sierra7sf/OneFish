@@ -38,6 +38,21 @@ TextureImporter:
   - first:
       213: 7671943991413990119
     second: baby crab
+  - first:
+      213: 8119988712462037734
+    second: RAPIDPUNCHES-FEB2021_12
+  - first:
+      213: -8605971446323968624
+    second: RAPIDPUNCHES-FEB2021_13
+  - first:
+      213: 2470660646989164014
+    second: RAPIDPUNCHES-FEB2021_14
+  - first:
+      213: 1061357782244417794
+    second: RAPIDPUNCHES-FEB2021_15
+  - first:
+      213: 7046896811983228738
+    second: RAPIDPUNCHES-FEB2021_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -315,7 +330,7 @@ TextureImporter:
         width: 17
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,7 +372,7 @@ TextureImporter:
         width: 33
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,7 +393,7 @@ TextureImporter:
         width: 21
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,6 +401,111 @@ TextureImporter:
       bones: []
       spriteID: 7e26ce89968387a60800000000000000
       internalID: 7671943991413990119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RAPIDPUNCHES-FEB2021_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 196
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e23b7266beffa070800000000000000
+      internalID: 8119988712462037734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RAPIDPUNCHES-FEB2021_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 195
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09584b2e092719880800000000000000
+      internalID: -8605971446323968624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RAPIDPUNCHES-FEB2021_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 197
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed6350b4cc894220800000000000000
+      internalID: 2470660646989164014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RAPIDPUNCHES-FEB2021_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 194
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20166469743babe00800000000000000
+      internalID: 1061357782244417794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RAPIDPUNCHES-FEB2021_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fc71f705b9bc160800000000000000
+      internalID: 7046896811983228738
       vertices: []
       indices: 
       edges: []
