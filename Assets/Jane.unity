@@ -306,6 +306,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 24
+--- !u!1 &878609899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 641985746851677748, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
+  m_PrefabInstance: {fileID: 641985746511315935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &878609904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878609899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699a8fe5e5b3b49c89d18f323b35daac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  myAudioClip: {fileID: 0}
+  mySpriteRenderer: {fileID: 0}
 --- !u!1 &888618221
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +422,10 @@ PrefabInstance:
     - target: {fileID: 37124299727987359, guid: 21182cf6d54814af2815360072a7ccfb, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 37124299727987359, guid: 21182cf6d54814af2815360072a7ccfb, type: 3}
+      propertyPath: m_TagString
+      value: Ring
       objectReference: {fileID: 0}
     - target: {fileID: 1402756934545937514, guid: 21182cf6d54814af2815360072a7ccfb, type: 3}
       propertyPath: rotationSpeed
@@ -565,6 +589,10 @@ PrefabInstance:
     - target: {fileID: 37124299727987359, guid: 21182cf6d54814af2815360072a7ccfb, type: 3}
       propertyPath: m_Name
       value: New Ring (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37124299727987359, guid: 21182cf6d54814af2815360072a7ccfb, type: 3}
+      propertyPath: m_TagString
+      value: Ring
       objectReference: {fileID: 0}
     - target: {fileID: 1402756934545937514, guid: 21182cf6d54814af2815360072a7ccfb, type: 3}
       propertyPath: rotationSpeed
@@ -938,6 +966,14 @@ PrefabInstance:
     - target: {fileID: 641985746851677744, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 641985746851677746, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.07089822
+      objectReference: {fileID: 0}
+    - target: {fileID: 641985746851677746, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.007178299
       objectReference: {fileID: 0}
     - target: {fileID: 641985746851677747, guid: b0fb1666019074e9aa68125c4d36122b, type: 3}
       propertyPath: m_GravityScale
